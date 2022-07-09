@@ -16,4 +16,5 @@ dvc add data_givem/winequality.csv
 
 git add .
 git commit -m "First commit"
+then update 
 
