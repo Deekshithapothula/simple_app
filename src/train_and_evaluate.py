@@ -53,9 +53,9 @@ def train_and_evaluate(config_path):
     (rmse,mae,r2)=eval_metrics(test_y,predicted_qualities)
 
     print("ElasticNet model (alpha=%f,l1_ratio=%f):" %(alpha,l1_ratio))
-    print(" RMSE: %s" %rmse)
-    print(" mae: %s" %mae)
-    print(" R2: %s" %r2)
+    print(" RMSE: %s" % rmse)
+    print(" mae: %s" % mae)
+    print(" R2: %s" % r2)
 
 
     ####################################################
