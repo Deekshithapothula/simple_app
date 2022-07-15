@@ -32,7 +32,7 @@ stages:
     - report/params.json:
         cache: false
     
-    outs :
+    outs:
     - saved_models/model.joblib
 
 
